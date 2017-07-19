@@ -1,0 +1,10 @@
+@import url('../../cssGlobals/colors.css');
+#side-nav{
+    width: 200px;
+    background-color: var(--fourth);
+    font-size: 30px;
+    text-align: center;
+    padding: .7em 0;
+    min-height: 400px;
+    height: 100%
+}

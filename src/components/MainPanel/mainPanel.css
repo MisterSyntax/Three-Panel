@@ -1,0 +1,7 @@
+@import url('../../cssGlobals/colors.css');
+#main-panel{
+    background-color: var(--bg);
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}

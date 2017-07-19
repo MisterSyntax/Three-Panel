@@ -3,6 +3,11 @@
 
 /**use global variables like below**/
 body{
-    color: var(--primary-color);
+    color: var(--primary);
     font-family: "Helvetica";
+}
+
+
+.horizontal-items{
+    display: flex;
 }

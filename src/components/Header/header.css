@@ -1,0 +1,8 @@
+@import url('../../cssGlobals/colors.css');
+#header{
+    width: 100%;
+    background-color: var(--third);
+    font-size: 30px;
+    text-align: center;
+    padding: .7em 0;
+}

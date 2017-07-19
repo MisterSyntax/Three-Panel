@@ -1,4 +1,4 @@
-A basic react setup with css next and css import, and redux
+A basic react setup with css next and css import, react-router, and redux
 ---
  
 Welcome. This starter is for getting you right into building your react app. With this starter you can use react, es6 features, cssnext features, redux, redux-thunk, and you'll have the ability to import css files into react components, to help keep your code organized.
@@ -65,7 +65,7 @@ initialState.json - Sample data that is in the shape of your application
 -initialState.json
 ```
 
-Getting Started
+Getting Started with Redux
 ---
 
 ```
@@ -79,4 +79,13 @@ Getting Started
 5. Build new components in new folders in /components/
 6. Build new containers in /containers/ When you need to access the store from a component create a container for it. As a note, you will be able to hand state from parent to child components still
 
+```
+
+Getting Started with router
+---
+
+```
+1. The main index.js renders App. This is wrapped with a browser-router
+2. In the MainPanel Component, you can update update which components will be displayed by modifying the router
+3. In the SideNav, you can add and modify the links that render components in the Main Panel 
 ```

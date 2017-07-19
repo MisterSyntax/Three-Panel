@@ -1,0 +1,8 @@
+@import url('../../cssGlobals/colors.css');
+#page-one{
+    background-color: var(--secondary);
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
