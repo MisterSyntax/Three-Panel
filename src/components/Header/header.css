@@ -1,5 +1,6 @@
 @import url('../../cssGlobals/colors.css');
 #header{
+    display: flex;
     width: 100%;
     background-color: var(--third);
     font-size: 30px;

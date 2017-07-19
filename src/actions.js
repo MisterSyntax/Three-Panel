@@ -8,14 +8,14 @@
  */
 import C from "./constants"
 
-export const enableContent = () => {
+export const openNav = () => {
     return {
-        type: C.ENABLE
+        type: C.OPEN_NAV
     }
 }
 
-export const disableContent = () => {
+export const closeNav = () => {
     return {
-        type: C.DISABLE
+        type: C.CLOSE_NAV
     }
 }

@@ -1,4 +1,5 @@
 @import url('../../cssGlobals/colors.css');
+@import url('../../cssGlobals/width.css');
 #side-nav{
     width: 200px;
     background-color: var(--fourth);
@@ -6,5 +7,11 @@
     text-align: center;
     padding: .7em 0;
     min-height: 400px;
-    height: 100%
+    height: 100%;
+    @media (--medium-viewport){
+        display:none;
+    }
+    @media (--small-viewport){
+        display:none;
+    }
 }

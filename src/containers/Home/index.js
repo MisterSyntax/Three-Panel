@@ -5,32 +5,32 @@
 import React from 'react'
 
 //import your component
-import Home from '../../components/Home/'
+import HamburgerNav from '../../components/HamburgerNav/'
 
 import { connect } from 'react-redux'
 
 //import whatever action you need to update your state
-import { enableContent, disableContent } from '../../actions'
+import { openNav, closeNav } from '../../actions'
 
 const mapStateToProps = (state, props) => (
     {
-        enable: state.enable
+        enable: state.hamburgerNavOpen
     }
 )
 
 const mapDispatchToProps = dispatch => {
     return{
-        onEnableContent(){
+        openNav(){
             dispatch(
-                enableContent()
+                openNav()
             )
         },
-        onDisableContent(){
+        closeNav(){
             dispatch(
-                disableContent()
+                closeNav()
             )
         }
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home)
+export default connect(mapStateToProps, mapDispatchToProps)(HamburgerNav)

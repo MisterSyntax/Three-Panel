@@ -11,3 +11,7 @@ body{
 .horizontal-items{
     display: flex;
 }
+
+.closed{
+    display: none;
+}

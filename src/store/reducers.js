@@ -7,12 +7,12 @@ import C from '../constants.js'
 import { combineReducers } from 'redux'
 
 //TODO: Remove/Replace Sample reducer
-export const enable = (state = false, action) => {
+export const hamburgerNavOpen = (state = false, action) => {
     switch (action.type) {
-        case C.ENABLE: {
+        case C.OPEN_NAV: {
             return true
         }
-        case C.DISABLE: {
+        case C.CLOSE_NAV: {
             return false
         }
         default:{
@@ -22,5 +22,5 @@ export const enable = (state = false, action) => {
 }
 
 export default combineReducers({
-    enable
+    hamburgerNavOpen
 })

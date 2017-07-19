@@ -1,7 +1,7 @@
 import React from 'react'
 import './mainPanel.css'
 
-import Home from '../../containers/Home'
+import Home from '../Home'
 import Page1 from '../Page1'
 
 import { Route, Switch } from 'react-router-dom'

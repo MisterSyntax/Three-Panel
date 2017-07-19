@@ -1,0 +1,32 @@
+@import url('../../cssGlobals/colors.css');
+@import url('../../cssGlobals/width.css');
+.hamburger-menu-icon{
+    font-size: 30px;
+    @media (--large-viewport){display:none;}
+    @media (--xlarge-viewport){display:none;}
+    @media (--medium-viewport){display:block;}
+    @media (--small-viewport){display:block;}
+}
+.hamburger-icon-container{
+    width: 2em;
+    height:1em;
+}
+.hamburger-nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 300px;
+    background-color: var(--fourth);
+    height: 100%;
+    z-index: 2;
+}
+.hamburger-nav-background{
+    position: fixed;
+    top: 0;
+    left:0;
+    background-color: var(--primary);
+    opacity: .3;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}

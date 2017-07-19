@@ -4,8 +4,8 @@
  */
 
 const constants = {
-    ENABLE: 'ENABLE',
-    DISABLE: 'DISABLE'
+    OPEN_NAV: 'OPEN_NAV',
+    CLOSE_NAV: 'CLOSE_NAV'
 }
 
 export default constants;
